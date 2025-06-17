@@ -1,73 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Inception - Movie Page</title>
+  <meta charset="UTF-8">
+  <title>Inception - Movie Webpage</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 20px;
-      background-color: #f4f4f4;
+      background-color: #f4f6f8;
       color: #333;
     }
-    header, nav, section, aside, footer {
-      background-color: #fff;
-      margin: 10px 0;
+
+    header {
+      background-color: #2c3e50;
+      color: white;
       padding: 15px;
-      border-radius: 8px;
-      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      text-align: center;
+      font-size: 2em;
     }
+
+    nav {
+      background-color: #34495e;
+      padding: 10px;
+      margin-top: 10px;
+    }
+
     nav a {
-      margin-right: 15px;
+      color: white;
       text-decoration: none;
-      color: #007BFF;
+      margin-right: 15px;
     }
+
     nav a:hover {
       text-decoration: underline;
+    }
+
+    summary, section, aside, footer {
+      margin: 20px 0;
+      padding: 15px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      background-color: #ecf0f1;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Inception</h1>
+    Inception
   </header>
 
   <nav>
-    <a href="#actor" id="nav-actor">Actors</a>
-    <a href="#quote" id="nav-quote">Quotes</a>
+    <a id="nav-actor" href="#actor">Actors</a>
+    <a id="nav-quote" href="#quote">Quotes</a>
   </nav>
 
-  <section id="summary">
-    <h2>Summary</h2>
-    <p>
-      *Inception* is a mind-bending science fiction film that follows a skilled thief, Dom Cobb, who specializes in stealing secrets from deep within the subconscious during the dream state. He is offered a chance to have his criminal history erased if he can successfully perform inception — planting an idea into someone’s mind.
-    </p>
-  </section>
+  <summary>
+    "Inception" is a science fiction thriller directed by Christopher Nolan, revolving around a group of skilled individuals who infiltrate the subconscious minds of their targets through shared dreams, with the goal of planting an idea deep enough to become real.
+  </summary>
 
   <section id="actor">
-    <h2>Actors</h2>
-    <p>
-      Leonardo DiCaprio as Dom Cobb, Joseph Gordon-Levitt as Arthur, Ellen Page as Ariadne, Tom Hardy as Eames, and Ken Watanabe as Saito.
-    </p>
+    <h2>Main Actors</h2>
+    <ul>
+      <li>Leonardo DiCaprio as Dom Cobb</li>
+      <li>Joseph Gordon-Levitt as Arthur</li>
+      <li>Elliot Page as Ariadne</li>
+      <li>Tom Hardy as Eames</li>
+    </ul>
   </section>
 
   <section id="quote">
     <h2>Favorite Quote</h2>
-    <p>
-      "You mustn’t be afraid to dream a little bigger, darling." – Eames
-    </p>
+    <p>"You mustn't be afraid to dream a little bigger, darling." – Eames</p>
   </section>
 
   <aside>
-    <h2>Details</h2>
-    <p>IMDb Rating: 8.8/10</p>
-    <p>Release Date: July 16, 2010</p>
+    <p><strong>IMDb Rating:</strong> 8.8/10</p>
+    <p><strong>Release Date:</strong> July 16, 2010</p>
   </aside>
 
   <footer>
-    <p>Produced by: Emma Thomas</p>
+    Produced by: Emma Thomas
   </footer>
 
 </body>
